@@ -112,7 +112,7 @@ MILESTONE_DB = {
             {'id': 'cg_24_36_1', 'description': '平行游戏到合作游戏', 'typical': ['各玩各的'], 'advanced': ['开始简单合作']}
         ],
         'social-emotional': [
-            {'id': 'se_24_36_1', 'description': '自我意识发展', 'typical': ['说'我''], 'advanced': ['用名字称呼自己']}
+            {'id': 'se_24_36_1', 'description': '自我意识发展', 'typical': ["说'我'"], 'advanced': ['用名字称呼自己']}
         ],
         'adaptive': [
             {'id': 'ad_24_36_1', 'description': '如厕训练准备', 'typical': ['白天能控制排尿'], 'advanced': ['能表达如厕需求']}

@@ -185,39 +185,33 @@ if __name__ == '__main__':
     partner = ParentingGrowthPartner()
     
     # Test 1: Milestone assessment
-    print('
-1. Testing milestone assessment (24 months):')
+    print('\n1. Testing milestone assessment (24 months):')
     result1 = partner.handle_milestone_assessment(24)
     print(f'   Success: {result1["success"]}')
     print(f'   Development status: {result1["assessment"]["summary"]["development_status"]}')
     
     # Test 2: Activity recommendation
-    print('
-2. Testing activity recommendation (24 months, 30 min):')
+    print('\n2. Testing activity recommendation (24 months, 30 min):')
     result2 = partner.handle_activity_recommendation(24, 30)
     print(f'   Success: {result2["success"]}')
     print(f'   Activities available: {result2["summary"]["total_available"]}')
     
     # Test 3: Communication guidance
-    print('
-3. Testing communication guidance (tantrum scenario):')
+    print('\n3. Testing communication guidance (tantrum scenario):')
     result3 = partner.handle_communication_guidance('tantrum', 24)
     print(f'   Success: {result3["success"]}')
     print(f'   Techniques: {len(result3["guidance"]["techniques"])}')
     
     # Test 4: Behavior analysis
-    print('
-4. Testing behavior analysis:')
-    result4 = partner.handle_behavior_analysis('经常说“不”，拖延', 'frequent', '被要求做事时', 24)
+    print('\n4. Testing behavior analysis:')
+    result4 = partner.handle_behavior_analysis('经常说"不"，拖延', 'frequent', '被要求做事时', 24)
     print(f'   Success: {result4["success"]}')
     print(f'   Possible patterns: {len(result4["analysis"]["possible_patterns"])}')
     
     # Test 5: Daily routine
-    print('
-5. Testing daily routine suggestion (24 months):')
+    print('\n5. Testing daily routine suggestion (24 months):')
     result5 = partner.handle_daily_routine_suggestion(24)
     print(f'   Success: {result5["success"]}')
     print(f'   Bedtime suggestion: {result5["suggested_routine"]["bedtime"]}')
     
-    print('
-=== Self-test completed ===')
+    print('\n=== Self-test completed ===')
