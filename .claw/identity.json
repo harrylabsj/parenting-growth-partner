@@ -1,0 +1,29 @@
+{
+  "name": "parenting-growth-partner",
+  "version": "0.1.0",
+  "description": "育儿成长伙伴 - 基于科学证据的育儿指导AI伴侣",
+  "author": {
+    "name": "Harry",
+    "email": "",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harrylabsj/parenting-growth-partner"
+  },
+  "keywords": [
+    "parenting",
+    "child-development",
+    "education",
+    "family"
+  ],
+  "engines": {
+    "python": ">=3.8"
+  },
+  "dependencies": [],
+  "devDependencies": [],
+  "scripts": {
+    "test": "python3 handler.py",
+    "test-extended": "python3 scripts/test-handler.py"
+  }
+}
